@@ -40,6 +40,9 @@ spec:
       readOnlyRootFilesystem: true
       runAsNonRoot: true
       runAsUser: 1000
+    service:
+      type: NodePort
+      nodePort: 30091
     adminUser:
       create: true
       username: admin
